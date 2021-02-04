@@ -2,7 +2,7 @@ FROM ubuntu
 
 LABEL version="1.0.0"
 
-LABEL com.github.actions.name="SAM Deploy Action"
+LABEL com.github.actions.name="Zealen SAM Deploy Action"
 LABEL com.github.actions.description="Deploy AWS SAM Stack"
 LABEL com.github.actions.icon="upload-cloud"
 LABEL com.github.actions.color="blue"
