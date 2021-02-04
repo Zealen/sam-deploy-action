@@ -51,9 +51,9 @@ if [[ $USE_JSON == true ]]; then
 fi
 
 if [[ -z "$CAPABILITIES" ]]; then
-    CAPABILITIES="--capabilities CAPABILITY_IAM"
+    CAPABILITIES="--capabilities CAPABILITY_NAMED_IAM"
 else
-    CAPABILITIES="--capabilities $CAPABILITIES"
+    CAPABILITIES="--capabilities CAPABILITY_NAMED_IAM"
 fi
 
 if [[ ! -z "$PARAMETER_OVERRIDES" ]]; then
